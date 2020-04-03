@@ -1,0 +1,73 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+#navi{
+  background-image: linear-gradient(to right, #141e30 , #243b55);  
+  color:white;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+#index-banner{
+  background-image: linear-gradient(to right, #141e30 , #243b55);  
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+    
+  }
+  #index-banner .section {
+    height: auto;
+    background-image: linear-gradient(red, yellow);
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    height: auto;
+    background-image: linear-gradient(red, yellow);
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#landcover{
+  background-color: red;
+}
+
+#download-button{
+  border-radius: 50px;
+}
